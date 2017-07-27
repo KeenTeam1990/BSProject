@@ -1,0 +1,28 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '8.0'
+
+target 'BSProject' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for BSProject
+    pod 'LCNetworking'
+    pod 'pop'
+    pod 'Masonry'
+    pod 'MJRefresh'
+    pod 'DACircularProgress'
+    pod 'SVProgressHUD'
+    pod 'BlocksKit'
+    pod 'YYWebImage'
+    pod 'YYModel'
+    pod 'CTVideoPlayerView'
+  # 友盟分享
+    # U-Share SDK UI模块（分享面板，建议添加）
+    pod ‘UMengUShare/UI’
+    # 微信
+    pod ‘UMengUShare/Social/WeChat'
+    # 新浪微博
+    pod ‘UMengUShare/Social/Sina'
+  # bugly
+    pod 'Bugly'
+end
